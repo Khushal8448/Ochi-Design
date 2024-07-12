@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 flex justify-between items-center">
+    <div className="fixed z-[999] w-full px-12 py-5 flex justify-between items-center">
       <div>
         <svg
           width="72"
@@ -32,15 +32,13 @@ const Navbar = () => {
         </svg>
       </div>
 
-      <div className="links flex gap-10 font-NeueMontreal">
-        {["Services", "Our work", "About us", "Insights", "Contact"].map(
+      <div className="links flex gap-6 font-NeueMontreal">
+        {["Services", "Our work", "About us", "Insights", "Contact us"].map(
           (item, index) => (
             <a
               href="#"
               key={index}
-              className={`text-base capitalize font-light ${
-                index === 4 && "ml-32"
-              }`}
+              className={`text-base font-normal ${index === 4 && "ml-64"}`}
             >
               {item}
             </a>
