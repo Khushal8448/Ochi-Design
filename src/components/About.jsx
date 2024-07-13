@@ -37,7 +37,7 @@ const About = () => {
           </button>
         </div>
 
-        <div className="w-1/2 h-[64vh] rounded-2xl overflow-hidden">
+        <div className="w-1/2 h-[64vh] mb-10 rounded-2xl overflow-hidden">
           <img
             src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg"
             width="100%"
